@@ -7,21 +7,21 @@
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
   :root {
-    --navy: #0f1e3c;
-    --blue: #1a3a6e;
-    --accent: #e8a020;
-    --accent2: #3b82c4;
-    --light: #f4f7fc;
+    --navy: #1a3d2b;
+    --blue: #2a5c40;
+    --accent: #c8950a;
+    --accent2: #3a7a54;
+    --light: #f2f7f4;
     --white: #ffffff;
-    --text: #1a1a2e;
-    --muted: #6b7a99;
-    --border: #d4dff0;
-    --pre-color: #1a6e4e;
-    --pre-bg: #e8f5ee;
-    --text-color: #1a5276;
-    --text-bg: #e8f0fb;
-    --post-color: #7d3c10;
-    --post-bg: #fdf0e0;
+    --text: #1a2e22;
+    --muted: #5a7a65;
+    --border: #bfd9ca;
+    --pre-color: #155c38;
+    --pre-bg: #ddf2e8;
+    --text-color: #1e5c3a;
+    --text-bg: #d8f0e4;
+    --post-color: #7a5a00;
+    --post-bg: #fdf5d8;
   }
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -36,7 +36,7 @@
 
   /* ── HERO ─────────────────────────────────────────────── */
   .hero {
-    background: linear-gradient(135deg, var(--navy) 0%, var(--blue) 60%, #1e4d8c 100%);
+    background: linear-gradient(135deg, #1a3d2b 0%, #2a5c40 55%, #3a7a54 100%);
     color: var(--white);
     padding: 70px 24px 60px;
     text-align: center;
@@ -46,14 +46,14 @@
   .hero::before {
     content: '';
     position: absolute; inset: 0;
-    background: radial-gradient(ellipse at 70% 30%, rgba(59,130,196,0.35) 0%, transparent 65%),
-                radial-gradient(ellipse at 20% 80%, rgba(232,160,32,0.15) 0%, transparent 50%);
+    background: radial-gradient(ellipse at 70% 30%, rgba(200,149,10,0.22) 0%, transparent 65%),
+                radial-gradient(ellipse at 20% 80%, rgba(58,122,84,0.3) 0%, transparent 50%);
     pointer-events: none;
   }
   .hero-badge {
     display: inline-block;
-    background: rgba(232,160,32,0.18);
-    border: 1px solid rgba(232,160,32,0.5);
+    background: rgba(200,149,10,0.18);
+    border: 1px solid rgba(200,149,10,0.5);
     color: var(--accent);
     font-size: 0.72rem;
     font-weight: 600;
@@ -566,7 +566,7 @@
 
   /* ── HOW-TO-EDIT BANNER ───────────────────────────────── */
   .howto-banner {
-    background: linear-gradient(90deg, #fffbea, #fff9e0);
+    background: linear-gradient(90deg, #fdf8e1, #fffde8);
     border: 1.5px solid var(--accent);
     border-radius: 12px;
     padding: 20px 24px;
@@ -589,12 +589,12 @@
   }
   .howto-text ul { padding-left: 18px; }
   .howto-text code {
-    background: rgba(232,160,32,0.15);
+    background: rgba(200,149,10,0.15);
     border-radius: 4px;
     padding: 1px 6px;
     font-size: 0.82rem;
     font-family: monospace;
-    color: #7a4800;
+    color: #7a5a00;
   }
 
   @media (max-width: 640px) {
